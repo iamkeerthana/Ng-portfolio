@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #374151;
     --purple:  #6366F1;
@@ -24,7 +28,8 @@ hr {
 
 .container-center {
     max-width: 600px;
-  
+    align-items: center;
+    margin: auto;
 }
 
 /** links **/
@@ -67,10 +72,12 @@ hr {
 
 .navigation .nav {
     font-weight: bold;
+    color: var(--pink);
+    font-size: x-large;
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: center;
 }
 
 .navigation .link {
@@ -141,4 +148,8 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+p {
+    line-height: 25px;
 }
