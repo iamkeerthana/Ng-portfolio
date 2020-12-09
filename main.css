@@ -63,6 +63,10 @@ hr {
     display: inline;
     padding: 0rem 0.3rem;
 }
+
+.list {
+    padding-bottom: 18px;
+}
 /** nav **/
 .navigation {
     background-color: var(--primary-color);
